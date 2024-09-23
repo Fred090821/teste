@@ -14,7 +14,7 @@ jobs:
       - name: Some Step 
         run: |
             printf '{ 
-              "prop_1": "Some value",  
+              "prop_1": "Some values",  
               "prop_2": true
             }' >> context.json
       - uses: actions/upload-artifact@v3
